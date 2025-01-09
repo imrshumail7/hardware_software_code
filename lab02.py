@@ -4,7 +4,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ...     name = "Professor Nedd"
 ...     print("we want to know if you like programming!")
 ...     print()
-...     print("Do you like programming{}?. format(name))
+...     print("Do you like programming{}?". format(name))
 ...           
 SyntaxError: unterminated string literal (detected at line 5)
 >>> def main():
